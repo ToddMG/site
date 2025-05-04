@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'C++',
+    'XGBoost',
+    'Scikit-learn',
+    'PyTorch',
+    'Keras',
+    'TensorFlow',
+    'MATLAB',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,31 +144,22 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              ML Engineer by day, avid snowboarder anytime! If I'm not working on a project I'm
+              either doing 60 down the slopes or Hall of Fame raiding in World of Warcraft.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Highly competitive gamer. A bad loser, but an even faster learner. Born and raised in
+              Costa Rica, living in California and dreaming of Japan.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I had the privilege of working at <a href="https://accenture.com/">Accenture</a> as a
+              contractor for {''}
+              <a href="https://www.verizon.com/">Verizon</a> for nearly two years. I pick up new
+              skills quickly, I excell under pressure and I'm ready for my next challenge.
             </p>
+            <p> </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
@@ -173,10 +173,10 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.png"
               width={500}
               quality={95}
-              formats={['AUTO', 'WEBP', 'AVIF']}
+              formats={['AUTO', 'WEBP', 'AVIF', 'PNG']}
               alt="Headshot"
             />
           </div>
