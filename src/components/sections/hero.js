@@ -59,14 +59,14 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi there, my name is</h1>;
+  const one = <h1>Hi there, I'm</h1>;
   const two = <h2 className="big-heading">Todd Munyon</h2>;
   //const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <>
       <p>
         I'm a <b>Machine Learning Engineer</b> dedicated to building and maintaining the end-to-end
-        lifecycle of ML models in production. Most recently, I solo developed a model built for time
+        lifecycle of ML models in production. Most recently, I solo-developed a model built for time
         and budget allocations at{' '}
         <a href="https://www.verizon.com/" target="_blank" rel="noreferrer">
           Verizon
@@ -75,17 +75,17 @@ const Hero = () => {
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
-  );
+  // const five = (
+  //   <a
+  //     className="email-link"
+  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
+  //     target="_blank"
+  //     rel="noreferrer">
+  //     Check out my course!
+  //   </a>
+  // );
 
-  const items = [one, two, /*three,*/ four, five];
+  const items = [one, two, /*three,*/ four /*five*/];
 
   return (
     <StyledHeroSection>

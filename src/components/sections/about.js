@@ -80,9 +80,9 @@ const StyledPic = styled.div`
 
     .img {
       position: relative;
-      border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      /*border-radius: var(--border-radius); REMOVED*/
+      /*mix-blend-mode: multiply; REMOVED*/
+      /*filter: grayscale(100%) contrast(1); REMOVED*/
       transition: var(--transition);
     }
 
@@ -154,9 +154,9 @@ const About = () => {
             </p>
 
             <p>
-              I had the privilege of working at <a href="https://accenture.com/">Accenture</a> as a
+              I had the privilege of working at <a href="https://www.verizon.com/">Verizon</a> as a
               contractor for {''}
-              <a href="https://www.verizon.com/">Verizon</a> for nearly two years. I pick up new
+              <a href="https://accenture.com/">Accenture</a> for nearly two years. I pick up new
               skills quickly, I excell under pressure and I'm ready for my next challenge.
             </p>
             <p> </p>
