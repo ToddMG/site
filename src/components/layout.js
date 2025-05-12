@@ -1,9 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
-// Remove Loader from imports:
-// import { Head, Loader, Nav, Social, Email, Footer } from '@components';
-import { Head, Nav, Social, Email, Footer } from '@components'; // Loader removed
+import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import { GlobalStyle, theme } from '@styles';
 
 const StyledContent = styled.div`
@@ -14,8 +12,7 @@ const StyledContent = styled.div`
 
 const Layout = ({ children, location }) => {
   const isHome = location.pathname === '/';
-  // Remove isLoading state:
-  // const [isLoading, setIsLoading] = useState(isHome);
+  const [isLoading, setIsLoading] = useState(isHome);
 
   // Sets target="_blank" rel="noopener noreferrer" on external links
   const handleExternalLinks = () => {
@@ -31,10 +28,9 @@ const Layout = ({ children, location }) => {
   };
 
   useEffect(() => {
-    // Remove isLoading condition:
-    // if (isLoading) {
-    //   return;
-    // }
+    if (isLoading) {
+      return;
+    }
 
     if (location.hash) {
       const id = location.hash.substring(1); // location.hash without the '#'
@@ -48,7 +44,7 @@ const Layout = ({ children, location }) => {
     }
 
     handleExternalLinks();
-  }, [location.hash]); // isLoading removed from dependencies
+  }, [isLoading]);
 
   return (
     <>
@@ -62,21 +58,20 @@ const Layout = ({ children, location }) => {
             Skip to Content
           </a>
 
-          {/* Remove Loader conditional rendering */}
-          {/* {isLoading && isHome ? (
+          {isLoading && isHome ? (
             <Loader finishLoading={() => setIsLoading(false)} />
-          ) : ( */}
-          <StyledContent>
-            <Nav isHome={isHome} />
-            <Social isHome={isHome} />
-            <Email isHome={isHome} />
+          ) : (
+            <StyledContent>
+              <Nav isHome={isHome} />
+              <Social isHome={isHome} />
+              <Email isHome={isHome} />
 
-            <div id="content">
-              {children}
-              <Footer />
-            </div>
-          </StyledContent>
-          {/* )} */}
+              <div id="content">
+                {children}
+                <Footer />
+              </div>
+            </StyledContent>
+          )}
         </ThemeProvider>
       </div>
     </>

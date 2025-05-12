@@ -4,10 +4,10 @@ module.exports = {
   siteMetadata: {
     title: 'Todd Munyon',
     description:
-      'Todd Munyon is a Machine Learning Engineer specializing in designing and building complex predictive models.',
+      'Todd Munyon is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://toddmunyon.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '',
+    twitterUsername: '@bchiang7',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,8 +27,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Todd Munyon',
-        short_name: 'Todd Munyon',
+        name: 'Brittany Chiang',
+        short_name: 'Brittany Chiang',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
