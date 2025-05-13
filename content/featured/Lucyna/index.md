@@ -1,9 +1,9 @@
 ---
-date: '1'
+date: '2'
 title: 'Lucyna'
 cover: './lucyna.png'
 cta: ''
-github: 'https://github.com/Lucyna-app'
+github: 'https://github.com/Lucyna-app/lucyna_api'
 tech:
   - Python |
   - Uvicorn |

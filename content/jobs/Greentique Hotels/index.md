@@ -3,7 +3,7 @@ date: '2017-12-01'
 title: 'Digital Marketing Supervisor'
 company: 'Greentique Hotels'
 location: 'Costa Rica'
-range: 'Dec 2017 - 2018'
+range: 'Dec 2017 - Dec 2018'
 url: 'https://greentiquehotels.com/'
 ---
 

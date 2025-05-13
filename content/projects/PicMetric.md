@@ -2,7 +2,7 @@
 date: '2019-11-01'
 title: 'PicMetric'
 github: ''
-external: 'https://github.com/Build-Week-Pic-Metric-1/Data-Science2'
+external: 'https://github.com/Build-Week-Pic-Metric-1/Data-Science2/tree/master/predictor-api'
 ios: ''
 android: ''
 tech:
@@ -10,7 +10,7 @@ tech:
   - Flask |
   - Resnet50 Neural Network |
   - PostgreSQL |
-company: 'BloomTech'
+company: 'BloomTech Labs'
 showInProjects: true
 ---
 

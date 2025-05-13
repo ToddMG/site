@@ -1,13 +1,13 @@
 ---
 date: '2020-03-01'
 title: 'MyDish'
-github: 'https://github.com/BloomTech-Labs/MyDish-DS'
+github: 'https://github.com/BloomTech-Labs/MyDish-DS/tree/master/Dishify/app'
 tech:
   - Python |
   - Google Vision OCR |
   - NLP |
   - RegEx |
-company: 'BloomTech'
+company: 'BloomTech Labs'
 showInProjects: true
 ---
 
