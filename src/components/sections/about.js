@@ -144,7 +144,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              ML Engineer by day, avid snowboarder anytime! If I'm not working on a project I'm
+              Data Scientist by day, avid snowboarder anytime! If I'm not working on a project I'm
               either doing 60 down the slopes or Hall of Fame raiding in World of Warcraft.
             </p>
 
