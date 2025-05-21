@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Todd Munyon',
     description:
-      'Todd Munyon is a Machine Learning Engineer designing and maintaining complex predictive models.',
+      'Todd Munyon is a Data Scientist designing and maintaining complex predictive models.',
     siteUrl: 'https://toddmunyon.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',

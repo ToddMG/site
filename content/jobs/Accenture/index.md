@@ -1,6 +1,6 @@
 ---
 date: '2020-11-01'
-title: 'Machine Learning Engineer'
+title: 'Data Scientist'
 company: 'Accenture - Verizon'
 location: 'Boston, MA'
 range: 'Nov 2020 - May 2022'

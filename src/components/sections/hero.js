@@ -65,9 +65,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a <b>Machine Learning Engineer</b> dedicated to building and maintaining the end-to-end
-        lifecycle of ML models in production. Most recently, I solo-developed a model built for time
-        and budget allocations at{' '}
+        I'm a <b>Data Scientist</b> dedicated to building and maintaining the end-to-end lifecycle
+        of ML models in production. Most recently, I solo-developed a model built for time and
+        budget allocations at{' '}
         <a href="https://www.verizon.com/" target="_blank" rel="noreferrer">
           Verizon
         </a>
