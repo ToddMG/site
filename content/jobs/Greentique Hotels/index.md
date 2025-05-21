@@ -13,7 +13,7 @@ url: 'https://greentiquehotels.com/'
 
 - Directed marketing campaigns, boosting qualified leads by <b>~130%</b> and increasing sales conversion rates by <b>~30%</b> within the first year. <a>Google, Facebook & Twitter Ads</a>
 
-- Met with upper-management to discuss strategies and sales goals. Presented performance improvement data to shareholders.
+- Held weekly meetings with executives to present performance improvement data and discuss sales targets.
 
 - Enhanced SEO, site performance, and social media engagement across all hotel platforms. <a>HMTL+CSS | JavaScript | Google, Facebook & Twitter Analytics</a>
 

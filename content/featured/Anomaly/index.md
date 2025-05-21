@@ -16,4 +16,4 @@ tech:
 ML model that predicts the attendance rate for medical appointments to improve patient outreach
 and prevent no-shows ahead of time.
 
-Exhibited a ROC-AUC score of 0.74 on first pass, with a true positive precision of 80% and a recall of 99%.
+Exhibited a ROC-AUC score of 0.74 on first pass, with a precision of 80% and a recall of 99%.
